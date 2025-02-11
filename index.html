@@ -1,268 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 850px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+        .header {
+            background: linear-gradient(135deg, #000428, #004e92);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+        }
+        .header h2 {
+            font-weight: 600;
+            margin: 0;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .info a {
+            text-decoration: none;
+            color: #004e92;
+            font-weight: 500;
+        }
+        .info i {
+            margin-right: 8px;
+        }
+        .section {
+            margin-top: 25px;
+        }
+        .section h3 {
+            color: #004e92;
+            border-bottom: 3px solid #004e92;
+            padding-bottom: 8px;
+            font-weight: 600;
+        }
+        .card {
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .badge {
+            margin: 5px;
+            background: #004e92;
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container text-white mt-1 p-3">
-        <div class="row" style="background-color: #313C4E;">
-            <h2>Yashvi Rathaud </h2>
-            <h5 class="text-info">Python | React.Js | Developer </h5>
-            <p>Seeking an opportunity to work in a challenging environment to learn new skills and enhance the same for
-                organizational growth and development </p>
+    <div class="container">
+        <div class="header">
+            <h2>Yashvi Rathaud</h2>
+            <p>Python | React.js | AI Developer</p>
         </div>
-        <div class="row text-white p-3" style="background-color: #222B34;">
-            <div class="col-md-6 text-white"><a href="mailto:yashvirathore604@gmail.com" class="link-light"
-                    style="text-decoration: none;" target="_blank"><i class="fa-solid fa-envelope"></i>
-                    yashvirathore604@gmail.com </div></a>
-            <div class="col-md-6 text-white"><i class="fa-solid fa-phone"></i> 6376662526</div>
-            <div class="col-md-6 text-white"><i class="fa-solid fa-location-dot"></i> nipaniya , indore </div>
-            <div class="col-md-6 text-white"><a
-                    href="https://www.linkedin.com/in/yashvi-r-194062244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                    class="link-light" style="text-decoration: none;" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i> linkedin.com/in/Yashvirathaud </div></a>
-            <div class="col-md-6 text-white"><a href="https://github.com/yashvirathaud642" class="link-light"
-                    style="text-decoration: none;" target="_blank"><i class="fa-brands fa-github"></i>
-                    github.com/yashvirathaud </div></a>
-            <div class="col-md-6 text-white"><a href="https://twitter.com/yashvi_o2?t=4_GrtwUgKrE8rMLtzKrUxA&s=08"
-                    class="link-light" style="text-decoration: none;" target="_blank"><i
-                        class="fa-brands fa-twitter"></i> twitter.com/yashvi_o2</a></div>
-            <div class="col-md-6 text-white"><a
-                    href="https://www.quora.com/profile/Yashvi-Rathore-16?ch=3&amp;oid=2883616638&amp;share=d2ba5d1f&amp;srid=3lkwzg&amp;target_type=user"
-                    class="link-light" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-quora"></i>
-                    quora.com/profile/Yashvi-Rathore-16</a></div>
-            <div class="col-md-6 text-white"> <a href="https://www.facebook.com/yashvi.rathore.549" class="link-light"
-                    style="text-decoration: none;" target="_blank"><i class="fa-brands fa-facebook"></i>
-                    facebook.com/yashvi.rathore.549</a></div>
-            <div class="col-md-6 text-white"><a href="https://www.instagram.com/__yaashhuu_o2?igsh=djJocjJscjMwaXBo"
-                    class="link-light" style="text-decoration: none;" target="_blank"><i
-                        class="fa-brands fa-instagram"></i> instagram.com/__yaashhuu_o2</a></div>
-            <div class="col-md-6 text-white"><a
-                    href="https://www.snapchat.com/add/yaashuuo?share_id=RVme5aMdED0&locale=en-GB" class="link-light"
-                    style="text-decoration: none;" target="_blank"><i class="fa-brands fa-snapchat"></i>
-                    snapchat.com/add/your-snapchat-id</a></div>
+        <div class="info">
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:yashvirathore604@gmail.com">yashvirathore604@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone"></i> 6376662526</p>
+            <p><i class="fa-solid fa-location-dot"></i> Indore, India</p>
         </div>
-        <div class="row bg-white text-black">
-
-
-            <div class="col-md-6">
-                <h4 class="text-info mt-3"><u>WORK EXPERIENCE</u></h4>
-                <h5><b>AI Blog Applications</b></h5>
-                <h6>Ypsilion solutions pvt ltd</h6>
-                <h6 class="text-secondary">
-                    - Description: A web application for publishing and reading blog articles about artificial
-                    intelligence.<br>
-                    - Technologies: MongoDB, Express JS, React JS, Node JS<br>
-                    - Features: User authentication and authorization<br>
-                    - Create, read, update, and delete blog articles<br>
-                    - Search articles by keywords<br>
-                    - User comment system<br>
-                    - User rating system
-                </h6>
-
-                <h5><b>Kisaan mart</b></h5>
-                <h6>Intouch software solution</h6>
-                <h6 class="text-secondary">
-                    - Description: Kisaan Mart project developed using Laravel, the focus is on bullding a user-friendly
-                    platform
-                    facilitating farmers to buy and sell agricultural products efficiently.<br>
-                    - User Registration ant Login<br>
-                    - Product Listing and Search<br>
-                    - Product Details and Pricing<br>
-                    - Order Placemment and Management<br>
-                    - Payment Gateway Integration<br>
-                    - Order Tracking Feedback and Ratings<br>
-                    - User Profile Management<br>
-                    - Admin Dashboard<br>
-                    - API Entpoint for User Registration and Login, create, add, edit, delete, sorting etc
-
-                </h6>
-
-                <h5><b>Portfolio Builder project</b></h5>
-                <h6>Intouch software solution</h6>
-                <h6 class="text-secondary">
-                    - Description: Portfolio Builder project, the focus is on creating a user-friendly platform for
-                    users to butid and
-                    manage their portfolios online.<br>
-                    - User Registration and Login<br>
-                    - Portfolio Creation and Management<br>
-                    - Database Connectivity<br>
-                    - User Profile Management<br>
-                    - Admin Dashboard<br>
-                    - Portfolio Preview and Shanng<br>
-                    - Which of your achievements match the job you're applying to? Which of your achievements match the
-                    job you're applying 10
-
-                </h6>
-
-                <h4 class="text-info mt-3"><u>Personal Projects</u></h4>
-                <h5>ChatGPT Clone </h5>
-                <h6 class="text-secondary">
-                    - Description: A clone of the Gemini platform with similar visual design and features like profile
-                    creation and
-                    content sharing.<br>
-                    - Technology : React, Node.js, Express, MongoDB<br>
-                    - Features: User profile creation<br>
-                    - Gemini-like interface for visual content<br>
-                    - Real-time chat functionality<br>
-                </h6>
-
-                <h5>YouTube Clone </h5>
-                <h6 class="text-secondary">
-                    Description: A video-sharing platform similar to YouTube where users can upload, stream, comment on,
-                    and like videos. Integrated with Firebase for real-time data handling.<br>
-                    -Technology : React, Redux, Firebase, Node.js <br>
-                    -Features : Video upload and streaming <br>
-                    -Commenting and liking videos <br>
-                    -Video search and categorization <br>
-
-                </h6>
-
-                <h5>Gemini Clone </h5>
-                <h6 class="text-secondary">
-                    -Description: A clone of the Gemini platform with similar visual design and features like profile
-                    creation and content sharing. <br>
-                    -Technology : React, Node.js, Express, MongoDB <br>
-                    -Features : User profile creation <br>
-                    -Gemini-like interface for visual content <br>
-                    -Real-time chat functionality <br>
-
-
-                </h6>
-
-                <h5>Netflix Clone </h5>
-                <h6 class="text-secondary">
-                    Description: A clone of Netflix that allows users to stream content, save movies/shows to their
-                    watchlist, and track their viewing history. Integrated with Firebase for user authentication and
-                    MongoDB for storing user data.
-                    - Technology: React, Node.js, Express, MongoDB, Firebase <br>
-                    - Features: User authentication (Sign up, Sign-in) <br>
-                    - Search functionality for movies and TV shows <br>
-                    - Watchlist and history tracking <br>
-                    - Responsive design for various screen sizes
-
-                </h6>
-
-                <h5>Spotify Clone</h5>
-                <h6 class="text-secondary">
-                    Description: A music streaming platform that mimics Spotify's core features, such as music playback,
-                    playlist management, and album search, using the Spotify API.
-                    - Technology : React, Redux, Node.js, Express, Spotify API <br>
-                    - Features : Music streaming from the Spotify API <br>
-                    - Search songs, albums, and artists <br>
-                    - Playlist creation and management <br>
-                    - Personalized recommendations
-                </h6>
+        
+        <div class="section">
+            <h3>Work Experience</h3>
+            <div class="card">
+                <h5>AI Blog Application - Ypsilon Solutions</h5>
+                <p><strong>Tech Stack:</strong> MERN Stack</p>
+                <p>Designed and developed a scalable AI-powered blogging platform with user authentication, CRUD functionality, and interactive rating system.</p>
             </div>
-            <div class="col-md-6">
-                <h4 class="text-info mt-3"><u>Skills</u></h4>
-                <span class="badge bg-secondary">Python(Django,Flask,FastApi)</span>
-                <span class="badge bg-secondary">HTML</span><br>
-                <span class="badge bg-secondary">CSS(Tailwind,bootstrap)</span>
-                 <span class="badge bg-secondary">Node.js</span>
-                <span class="badge bg-secondary">JavaScript</span>
-                <span class="badge bg-secondary">React</span>
-                 <span class="badge bg-secondary">AI-Genrative</span>
-
-                <h4 class="text-info mt-3"><u>EDUCATION</u></h4>
-                <h5><b>MASTERS IN COMPUTER APPLICATION</b></h5>
-                <h6>Shri Vaishnav Institude Of Mangament indore</h6>
-                <p>8.2 CGPA</p>
-
-                <h5><b>BACHLELOR IN COMPUTER APPLICATION</b></h5>
-                <h6>New Look Girls Colleage Banswara Rajasthan banswara</h6>
-                <p>7.0 CGPA</p>
-
-                <h5><b>Higher Secondry</b></h5>
-                <h6>Kendriy Vidhayalaya</h6>
-                <p>60%</p>
-
-                <h5><b>Senior Secondry</b></h5>
-                <h6>Kendriy Vidhayalaya</h6>
-                <p>67%</p>
-
-                <h4 class="text-info mt-3"><u>Certificates</u></h4>
-                <h5>C/C++</h5>
-                <h6>IIT Bombay</h6>
-
-                <h5 class="mt-1">Barclays life skill program</h5>
-                <h6>GTT foundation</h6>
-
-                <h5 class="mt-1">Html/Css</h5>
-                <h6>Ypsilon solution</h6>
-
-                <h5 class="mt-1">Mern Stack</h5>
-                <h6> Ypsilon solution</h6>
-
-                <h4 class="text-info mt-3"><u>Volunteer Experience</u></h4>
-                <h5>Amazon Clone </h5>
-                <h6 class="text-secondary">
-                    -Description: An e-commerce platform similar to Amazon, where users can browse products, add them to
-                    their cart, and proceed to checkout. The project uses the MERN stack for full-stack development.
-                    <br>
-                    -Technology : MERN Stack (MongoDB, Express, React, Node.js) <br>
-                    -Features : Product listings and search functionality <br>
-                    -Add to cart and checkout system <br>
-                    -User authenticatio
-                </h6>
-
-                <h5>Appointment Booking App</h5>
-                <h6 class="text-secondary">
-                    -Description: A system for scheduling and managing appointments, with an admin interface for
-                    tracking and confirming bookings.<br>
-                    -Technology : React, Node.js, Express, MongoDB <br>
-                    -Features : User authentication and profile management <br>
-                    -Calendar integration for booking appointments <br>
-                    -Admin dashboard to manage appointments
-                </h6>
-
-                <h5>Modern Portfolio Site</h5>
-                <h6 class="text-secondary">
-                    - Description: A personal portfolio website showcasing my skills, projects, and contact details.
-                      Includes animations, responsive design, and interactive components.<br>
-                    -Technology : HTML, CSS, JavaScript, React <br>
-                    -Features : Dynamic portfolio showcase <br>
-                    -Interactive resume <br>
-                    -Contact form with email integration
-                </h6>
-
-                <h5>Job Portal </h5>
-                <h6 class="text-secondary">
-                    - Description: Our job portal is a one-stop destination for job seekers and employers to connect and
-                    thrive. Whether you're starting your career, looking for a change, or hiring top talent, we offer a
-                    platform that simplifies the entire process. <br>
-                    -Features: Browse job listings by category, location, and keywords <br>
-                    -User profiles with resume upload and application tracking <br>
-                    -Company profiles and job postings management
-                </h6>
-
-                <h5>AI Image Generator</h5>
-                <h6 class="text-secondary">
-                    -  Description: A web-based platform that integrates AI-powered image generation
-                    capabilities with a fully functional job portal. Users can generate high-quality
-                    AI images tailored to specific prompts and browse or apply for job opportunities. The platform is
-                    designed with a user-friendly interface,
-                    advanced search features, and responsive design to ensure an intuitive experience. <br>
-                    -Technology: HTML, CSS, JavaScript, Mern-Stack <br>
-                    -Features: Generate images based on user-defined prompts <br>
-                    -Options to download or share generated images <br>
-                    -Image customization features (size, style, etc.) <br>
-                </h6>
+            <div class="card">
+                <h5>Kisaan Mart - Intouch Software</h5>
+                <p><strong>Tech Stack:</strong> Laravel</p>
+                <p>Built an e-commerce platform for farmers, enabling seamless product search, user management, and secure online transactions.</p>
             </div>
-
+        </div>
+        
+        <div class="section">
+            <h3>AI-Based Projects</h3>
+            <div class="card">
+                <h5>AI Mental Health Tracker</h5>
+                <p>Developed an AI-driven mobile app for mood tracking, personalized mental health recommendations, and stress analysis.</p>
+            </div>
+            <div class="card">
+                <h5>AI Resume Builder</h5>
+                <p>Created an intelligent resume generator that tailors resumes based on job descriptions and industry standards.</p>
+            </div>
+            <div class="card">
+                <h5>AI Task Manager</h5>
+                <p>Implemented a smart task management system that prioritizes tasks and suggests optimized daily schedules.</p>
+            </div>
+            <div class="card">
+                <h5>AI Budget Tracker</h5>
+                <p>Designed an AI-powered budgeting tool to analyze expenses, track spending habits, and provide personalized savings strategies.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Skills</h3>
+            <span class="badge text-white">Python (Django, Flask, FastAPI)</span>
+            <span class="badge text-white">JavaScript (React, Node.js)</span>
+            <span class="badge text-white">CSS (Bootstrap, Tailwind)</span>
+            <span class="badge text-white">MongoDB, PostgreSQL</span>
+            <span class="badge text-white">AI & Machine Learning</span>
+        </div>
+        
+        <div class="section">
+            <h3>Education</h3>
+            <p><strong>MCA - Shri Vaishnav Institute, Indore</strong> (8.2 CGPA)</p>
+            <p><strong>BCA - New Look Girls College, Rajasthan</strong> (7.0 CGPA)</p>
+        </div>
+        
+        <div class="section">
+            <h3>Certifications</h3>
+            <p>C/C++ - IIT Bombay</p>
+            <p>MERN Stack - Ypsilon Solutions</p>
         </div>
     </div>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.27106846488!2d75.56846861767994!3d22.72401826254102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1702536875959!5m2!1sen!2sin"
-        width="100%;" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
 </body>
-
 </html>
