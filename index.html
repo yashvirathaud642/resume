@@ -3,72 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Resume</title>
+    <title>Yashvi Rathaud - Professional Resume</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f4f4f4;
+            background: #f5f5f5;
             color: #333;
             margin: 0;
             padding: 0;
         }
         .container {
-            max-width: 850px;
+            max-width: 1200px;
             background: white;
             padding: 30px;
-            border-radius: 12px;
+            border-radius: 15px;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-            margin-top: 40px;
+            margin: 40px auto;
         }
         .header {
-            background: linear-gradient(135deg, #000428, #004e92);
-            color: white;
-            padding: 30px;
             text-align: center;
-            border-radius: 12px;
+            padding: 20px;
+            border-bottom: 2px solid #ffcc00;
         }
-        .header h2 {
-            font-weight: 600;
-            margin: 0;
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
         }
-        .info {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 15px;
-        }
-        .info a {
-            text-decoration: none;
-            color: #004e92;
-            font-weight: 500;
-        }
-        .info i {
-            margin-right: 8px;
-        }
-        .section {
-            margin-top: 25px;
+        .left, .right {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
         }
         .section h3 {
-            color: #004e92;
-            border-bottom: 3px solid #004e92;
-            padding-bottom: 8px;
-            font-weight: 600;
-        }
-        .card {
-            border: none;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 15px;
-            padding: 15px;
-            border-radius: 8px;
+            color: #ffcc00;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
         }
         .badge {
-            margin: 5px;
-            background: #004e92;
+            background: #ffcc00;
+            color: black;
             padding: 8px 12px;
+            border-radius: 20px;
             font-size: 14px;
+            margin: 5px;
         }
     </style>
 </head>
@@ -76,67 +59,75 @@
     <div class="container">
         <div class="header">
             <h2>Yashvi Rathaud</h2>
-            <p>Python | React.js | AI Developer</p>
+            <h3>Python | React Js | Developer<br>
+                Seeking an opportunity to work in challenging environment to learn new skills and enhance the same for organization's growth and development
+            </h3>
+            <p><i class="fa-solid fa-phone"></i> 6376662526 | <i class="fa-solid fa-envelope"></i> yashvirathore604@gmail.com | <i class="fa-solid fa-location-dot"></i> Indore, India</p>
         </div>
-        <div class="info">
-            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:yashvirathore604@gmail.com">yashvirathore604@gmail.com</a></p>
-            <p><i class="fa-solid fa-phone"></i> 6376662526</p>
-            <p><i class="fa-solid fa-location-dot"></i> Indore, India</p>
+        <div class="content">
+            <div class="left">
+                <div class="section">
+                    <h3>Work Experience</h3>
+                    <p><strong>AI Blog Application - Ypsilon Solutions</strong></p>
+                    <p>- Description: A web application for publishing and reading blog articles about artificial intelligence. 
+                        - Technologies: MongoDB, Express JS, React JS, Node JS 
+                        - Features: User authentication and authorization 
+                        - Create, read, update, and delete blog articles 
+                        - Search articles by keywords 
+                        - User comment system 
+                        - User rating system </p>
+                      <p><strong>Kisaan mart - Intouch software solution </strong></p>
+                      <p>- User Registration ant Login 
+                        - Product Listing and Search 
+                        - Product Details and Pricing 
+                        - Order Placemment and Management 
+                        - Payment Gateway Integration 
+                        - Order Tracking Feedback and Ratings 
+                        - User Profile Management 
+                        - Admin Dashboard 
+                        - API Entpoint for User Registration and Login, create, add, edit, delete, sorting etc</p>  
+                </div>
+                <div class="section">
+                    <h3>Skills</h3>
+                    <span class="badge">Python (Django, Flask, FastAPI)</span>
+                    <span class="badge">JavaScript (React, Node.js)</span>
+                    <span class="badge">Html Css JavaScript</span>
+                    <span class="badge">React.Js("React-Redux ")</span>
+                        </div>
+            </div>
+            <div class="right">
+                <div class="section">
+                    <h3>Internship Projects</h3>
+                    <p><strong>AI Resume Builder</strong></p>
+                    <p>An AI-powered tool that generates professional resumes with intelligent formatting and keyword optimization. Uses NLP to enhance content for better ATS ranking.
+                        AI-based resume generation and optimization
+                        Multiple templates with customization options
+                        Skill and experience suggestion using NLP
+                        PDF and DOCX export options
+                        User-friendly UI with real-time previews
+                    </p>
+                    <p><strong>AI-Based Mental Health Tracker</strong></p>
+                    <p>AI-powered mood and emotion detection
+                        Sentiment analysis on journal entries
+                        Personalized self-care and therapy suggestions
+                        Data visualization for mental health trends
+                        Secure user authentication and data privacy</p>
+                </div>
+                <div class="section">
+                    <h3>Education</h3>
+                    <p><strong>MCA - Shri Vaishnav Institute, Indore</strong> (8.2 CGPA)</p>
+                    <p><strong>BCA - New Look Girls College, Rajasthan</strong> (7.0 CGPA)</p>
+                    <p><strong>Senior Secondry Kendriy Vidhayalaya </strong>( 60% )</p>
+                    <p><strong>higher Secondry Kendriy Vidhayalaya </strong>( 61% )</p>
+                </div>
+            </div>
         </div>
-        
-        <div class="section">
-            <h3>Work Experience</h3>
-            <div class="card">
-                <h5>AI Blog Application - Ypsilon Solutions</h5>
-                <p><strong>Tech Stack:</strong> MERN Stack</p>
-                <p>Designed and developed a scalable AI-powered blogging platform with user authentication, CRUD functionality, and interactive rating system.</p>
-            </div>
-            <div class="card">
-                <h5>Kisaan Mart - Intouch Software</h5>
-                <p><strong>Tech Stack:</strong> Laravel</p>
-                <p>Built an e-commerce platform for farmers, enabling seamless product search, user management, and secure online transactions.</p>
-            </div>
-        </div>
-        
-        <div class="section">
-            <h3>AI-Based Projects</h3>
-            <div class="card">
-                <h5>AI Mental Health Tracker</h5>
-                <p>Developed an AI-driven mobile app for mood tracking, personalized mental health recommendations, and stress analysis.</p>
-            </div>
-            <div class="card">
-                <h5>AI Resume Builder</h5>
-                <p>Created an intelligent resume generator that tailors resumes based on job descriptions and industry standards.</p>
-            </div>
-            <div class="card">
-                <h5>AI Task Manager</h5>
-                <p>Implemented a smart task management system that prioritizes tasks and suggests optimized daily schedules.</p>
-            </div>
-            <div class="card">
-                <h5>AI Budget Tracker</h5>
-                <p>Designed an AI-powered budgeting tool to analyze expenses, track spending habits, and provide personalized savings strategies.</p>
-            </div>
-        </div>
-        
-        <div class="section">
-            <h3>Skills</h3>
-            <span class="badge text-white">Python (Django, Flask, FastAPI)</span>
-            <span class="badge text-white">JavaScript (React, Node.js)</span>
-            <span class="badge text-white">CSS (Bootstrap, Tailwind)</span>
-            <span class="badge text-white">MongoDB, PostgreSQL</span>
-            <span class="badge text-white">AI & Machine Learning</span>
-        </div>
-        
-        <div class="section">
-            <h3>Education</h3>
-            <p><strong>MCA - Shri Vaishnav Institute, Indore</strong> (8.2 CGPA)</p>
-            <p><strong>BCA - New Look Girls College, Rajasthan</strong> (7.0 CGPA)</p>
-        </div>
-        
-        <div class="section">
-            <h3>Certifications</h3>
-            <p>C/C++ - IIT Bombay</p>
-            <p>MERN Stack - Ypsilon Solutions</p>
+        <div class="section mt-4">
+            <h3>Certifications & Practice Projects</h3>
+            <p>C/C++ - IIT Bombay | MERN Stack - Ypsilon Solutions</p>
+            <p>Html/Css - ypsilion pvt ltd </p>
+            <p>Mern Stack - Ypsilion solution pvt ltd</p>
+            <p>Barclays life skill program - GTT Foundation</p>
         </div>
     </div>
 </body>
